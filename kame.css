@@ -1,18 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
 .header {
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    background-color: #1f2937;
+    color: white;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 ul {
     display:flex;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 30px;
     padding: 0;
     margin: 0;
     list-style-type: none;
+    padding-right: 230px;
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
 
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin-top: 70px;
+}
+
+.first {
+    display:flex;
+    width: 600px;
+    height: 180px;
+    justify-content: space-between;
+    gap: 50px;
+    border: 4px dashed black;
+    padding: 40px;
+    flex-shrink: 0;
+}
+
+.first img {
+    width: 20%;
+}
+
+.second {
+    margin: 60px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.char, .char1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.char1 img {
+    width: 50px;
+    padding: 3px;
+}
+
+.char img {
+    width: 70px;
+    padding: 3px;
+}
+
+.cards {
+    display: flex;
+    gap: 18px;
+}
+
+.card {
+    border-radius: 30%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 12px;
+   
+}
+
+.third {
+    display:flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: x-large;
+    background-color: lightgray;
+    border: 3px dashed white;
+    margin: 80px;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.third h3 {
+    flex: 0 1 auto;
+    margin-top: 0;
+    margin-left: 300px;
+}
+
+.fourth {
+    display:flex;
+    width: 600px;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px dashed black;
+    padding: 50px;
+    font-weight: bolder;
+    flex: 0;
+    margin: 50px;
+}
+
+button {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    font-weight: bold;
+    border: 3px dotted black;
+    padding: 8px; 
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    background-color: orange;
+    font-weight: bold;
 }
