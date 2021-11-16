@@ -12,7 +12,7 @@ body {
     height: 30px;
     background-color: #1f2937;
     color: white;
-    padding: 8px;
+    padding: 8px 150px 8px 30px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
@@ -23,7 +23,6 @@ ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    padding-right: 230px;
 }
 
 a {
@@ -45,14 +44,15 @@ a {
     width: 600px;
     height: 180px;
     justify-content: space-between;
-    gap: 50px;
+    align-items: center;
+    gap: 20px;
     border: 4px dashed black;
-    padding: 40px;
+    padding: 10px 40px;
     flex-shrink: 0;
 }
 
 .first img {
-    width: 20%;
+    height: 150px;
 }
 
 .second {
@@ -62,18 +62,13 @@ a {
     align-items: center;
 }
 
-.char, .char1 {
+.char {
     font-size: xx-large;
     text-align: center;
 }
 
-.char1 img {
-    width: 50px;
-    padding: 3px;
-}
-
 .char img {
-    width: 70px;
+    object-fit: cover;
     padding: 3px;
 }
 
